@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "turn-taking"
+version = "0.1.0"
+description = ""
+authors = ["Umar Farooqi <umar.farooqi@apollo.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+datasets = "^3.0.0"
+omegaconf = "^2.3.0"
+sphfile = "^1.0.3"
+setuptools = "^74.1.2"
+pytorch-lightning = "^2.4.0"
+torchaudio = "^2.4.1"
+torchmetrics = "^1.4.2"
+einops = "^0.8.0"
+pytest = "^8.3.3"
+matplotlib = "^3.9.2"
+amfm-decompy = "^1.0.11"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
